@@ -7,3 +7,15 @@ outputs=['NIHCXR.npy', 'COVIDGR_1.0_N.npy', 'COVIDGR_1.0_P.npy']
 
 for i in range(len(ids)):
     gdown.download(id=ids[i], output=outputs[i])
+
+
+##to access the key and value from the compressed npy, after downloading it to your computer:
+#df_nihcxr = np.load("Data/NIHCXR.npy", allow_pickle = True)
+        #df_nihcxr_dict = df_nihcxr.item()
+#key_1st = list(df_nihcxr_dict.values())[0]
+#value_1st = df_nihcxr_dict[key_1st]
+#plt.imshow(value_1st)
+
+
+
+
