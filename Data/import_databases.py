@@ -15,7 +15,3 @@ for i in range(len(ids)):
 #key_1st = list(df_nihcxr_dict.values())[0]
 #value_1st = df_nihcxr_dict[key_1st]
 #plt.imshow(value_1st)
-
-
-
-
