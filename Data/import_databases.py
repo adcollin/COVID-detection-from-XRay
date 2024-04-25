@@ -2,8 +2,8 @@
 
 import gdown
 
-ids=["1nF6BqS2jMGEapfR0lGJ_7Eauc7zu-DDx", "12X2Rz6D0aTbUVHuEXmEp7GTBfhIxLagI", "1p9ndW7-FeZVVfxvCGNlF7-8K7Qi6wVOZ"]
-outputs=['NIHCXR.npy', 'COVIDGR_1.0_N.npy', 'COVIDGR_1.0_P.npy']
+ids=["1caWktoyX-oWQKGXkvy2GB1lYqzBdbAlI","1nF6BqS2jMGEapfR0lGJ_7Eauc7zu-DDx", "12X2Rz6D0aTbUVHuEXmEp7GTBfhIxLagI", "1p9ndW7-FeZVVfxvCGNlF7-8K7Qi6wVOZ"]
+outputs=['Brixia.npy','NIHCXR.npy', 'COVIDGR_1.0_N.npy', 'COVIDGR_1.0_P.npy']
 
 for i in range(len(ids)):
     gdown.download(id=ids[i], output=outputs[i])
