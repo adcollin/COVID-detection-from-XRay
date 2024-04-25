@@ -1,0 +1,5 @@
+# Ignore all .npy files
+*.npy
+
+# Ignore .DS_Store files
+.DS_Store
