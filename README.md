@@ -1,1 +1,11 @@
 # COVID-detection-from-XRay
+This collaborative projects presents a COVID detection pipeline developped from Chest X-rays. Based on a CNN architecture with a Grad-CAM explainability module, it explores the challenges related to the use of data from different clinical settings, and the effects of the strategies used to mitigate those differences. 
+
+## Abstract:
+The Covid-19 pandemic from 2019 to 2023 caused massive health burdens and death, public health and government expenditures, and severe market loss and societal fluctuations. In fact, within 2024 where Covid-19 has officially been announced to end, according to CDC there were still 7 million hospitalizations due to Covid to date (accessed April 2024 from CDC). Within the health system, the vast number of population impacted by the virus overloaded the hospitals. The challenges presented by Covid include but are not limited to the shortage in medical supplies and resource allocation depending on condition severity and overwhelmed medical staff. Overall the resources were limited for the patients impacted and often caused delay in treatment with consequences that could have been avoided. A machine learning model that is able to preliminarily screen chest x-rays for patients for identification of Covid infections would be beneficial for addressing the problem (eg. for early detection, treatment, supportive care, and implementation of public health policies), and here we propose to test the performance of such a model.
+
+Through the development and validation of the model, we ask the following question: can signs of Covid-19 in x-ray scans be identified using machine learning approaches, to predict whether a patient has covid or not, with noisy image sets (e.g. patients have none or a variety of concurrent conditions other than covid, image rotation, position of patient taking the x ray, e.t.c.)? And how robust will this prediction be to different clinical settings?
+
+## Progress and results 
+Progress reports related to the data analysis and the exploration of the different strategies to mitigate clinical-settings induced biases can be found in the "Milestone report" directory. 
+The final code and comments can be found as milestone_4.ipynb (different approaches to the classification task), and milestone_5.ipynb (final model and analysis of the biases in the subsequent results). 
